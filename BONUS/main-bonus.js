@@ -1,6 +1,6 @@
 const hamburgerMenu = document.querySelector('.hamburger-menu'); 
-const hamburgerButton = document.querySelector('.fa-bars'); 
-const crossButton = document.querySelector('.fa-times'); 
+const hamburgerButton = document.querySelector('header div.header-right a i.fas.fa-bars'); 
+const crossButton = document.querySelector('header div.hamburger-menu a.close i.fas.fa-times'); 
 const list = document.querySelector('ul'); 
 
 list.addEventListener ( 'click', function() {
